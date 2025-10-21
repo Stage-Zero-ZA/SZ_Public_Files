@@ -7,4 +7,4 @@ Factory App binaries to be used during developent.
   - `${fw_version}/binaries/qa1/` : QA Monolithic Server Hardcoded.
   - `${fw_version}/binaries/nvs/` : Firmware uses server stored in NVS.
 2. You have to generate your own nvs_custom binary with credentials.
-3. Bootloader and Partition table are shared binaries located in `/${fw_version}/shared/`
+3. Bootloader, Partition Table and NVS Standard are shared binaries located in `/${fw_version}/shared/`
